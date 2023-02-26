@@ -6,6 +6,7 @@
 ## Inspiration
 We were inspired to make this product to bring awareness to rising rodent infestation rates, as seen in the Columbia community and greater Manhattan area, to reduce rates of disease transmission to humans.
 ## What it does
+![image](https://user-images.githubusercontent.com/67718713/221411587-60349f36-8616-44fa-9269-9a9df94a7c45.png)
 -A blockchain service that incentives people to identify rat locations based on individual reported sightings in exchange for Blockratcoin.
 ## How we built it
 A person reports a sighting and sends a picture, with geolocation metadata, and a wallet address. The picture is sent to a computer vision server that verifies if a rat is present in the picture. If true, the server sends a hashed verification code back to the user and the transaction is done with three parameters to the smart contract. (hashed verification code, geolocation, and wallet address) The user gets a minted coin and the smart contract store the geolocation values on the blockchain will then be received by the website to create a marker on a map of the rat sighting.
