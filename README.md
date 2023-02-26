@@ -2,7 +2,7 @@
 
 ![image](https://user-images.githubusercontent.com/67718713/221411456-c2d23c6c-48eb-462e-9ef6-69d9f18a81c8.png)
 
-
+Slides: https://docs.google.com/presentation/d/12RPJ4W1qkfsZDJmE-_OTJJdm1MaT8tdnF1z1R16Rzas/edit#slide=id.p
 ## Inspiration
 We were inspired to make this product to bring awareness to rising rodent infestation rates, as seen in the Columbia community and greater Manhattan area, to reduce rates of disease transmission to humans.
 ## What it does
