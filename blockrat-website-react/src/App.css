@@ -1,0 +1,45 @@
+@import "./fonts.css";
+
+html, body, main {
+    height:100%;
+}
+html {
+    /* background-color: rgb(4, 0, 44); */
+
+}
+body {
+    font-family: jost;
+    margin: 0px;
+    margin-top: 10px;
+}
+
+header nav {
+    display:flex;
+    justify-content: flex-end;
+    gap: 5px;
+
+    
+    font-size: large;
+}
+
+header nav a{
+    border-radius: 3px;
+    padding: 1px 10px;
+}
+
+header nav a.active {
+    background-color: rgb(230, 230, 230);
+}
+
+header nav a:hover {
+    background-color: rgb(230, 230, 230)
+}
+
+header {
+    margin-bottom: 10px;
+    margin-right: 10px;
+}
+
+img {
+    width: 100%
+}

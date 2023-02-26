@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BlockRat Maps</title>
+
+    <link rel="stylesheet" href="MapPage.css">
+    <link rel="stylesheet" href="header.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+          <a href="/">
+            About
+          </a>
+          <a href="/map">
+            Map
+          </a>
+        </nav>
+    </header>
+    <main class="map-page">
+        <!-- {SubmitFormPopupShowing &&
+        <SubmitFormPopup setSubmitFormPopupShowing={setSubmitFormPopupShowing}></SubmitFormPopup>}
+
+        {WalletPopupShowing &&
+        <WalletPopup setWalletPopupShowing={setWalletPopupShowing}></WalletPopup>} -->
+
+
+        <img src="./assets/logo.png" alt="blockrat logo" class='logo' />
+        <h1>BLOCKRAT</h1>
+
+        <div class="coin-count-display" onClick={handleClick}>
+            My RatCoin:
+            <span class='ratcoin-count'>0</span>
+            <span class='arrow'>></span>
+        </div>
+        <a class='submit-sighting-link' onClick={handleSubmitClicked}>
+            Submit Rat Sighting
+        </a>
+
+        <h4 class='map-title'>
+            Rat Map
+        </h4>
+        <div id="map"></div>
+    </main>
+    <script src="./map.js"></script>
+    <script src="https://unpkg.com/@googlemaps/markerclusterer/dist/index.min.js"></script>
+    <script async
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDQ3lmcaK_MPreVbXwoqU-WYzkk5jXrMSU&callback=initMap">
+    </script>
+
+</body>
+
+</html>
